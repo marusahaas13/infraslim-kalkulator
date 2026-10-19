@@ -1,0 +1,21 @@
+
+# macOS sistemske datoteke
+.DS_Store
+
+# VS Code lokalne nastavitve
+.vscode/
+
+# Začasne datoteke
+*.tmp
+*.log
+
+# Lokalna konfiguracija in skrivnosti
+.env
+.env.*
+!.env.example
+
+# Odvisnosti
+node_modules/
+
+# Zaslonski posnetki in lokalna dokumentacija
+Dokumentacija/
