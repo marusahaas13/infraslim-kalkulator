@@ -21,6 +21,14 @@ document.getElementById("izracunaj").addEventListener("click", function () {
     }
 
     const razlika = prihodki - stroski;
+    const dobickonosnost = prihodki > 0
+    ? (razlika / prihodki) * 100
+    : 0;
+
+document.getElementById("dobickonosnost").textContent =
+    prihodki > 0
+        ? dobickonosnost.toFixed(2).replace(".", ",") + " %"
+        : "Ni mogoče izračunati (prihodki so 0 €)";
 
     rezultat.textContent = razlika.toLocaleString("sl-SI", {
         style: "currency",
