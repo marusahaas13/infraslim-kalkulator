@@ -1,0 +1,30 @@
+name: Infraslim CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  preverjanje:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prenos kode
+        uses: actions/checkout@v4
+
+      - name: Namestitev Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Preverjanje datotek
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f script.js
+          test -f README.md
+
+      - name: Preverjanje JavaScript sintakse
+        run: node --check script.js
