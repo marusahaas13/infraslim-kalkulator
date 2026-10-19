@@ -1,0 +1,1 @@
+Preizkus digitalnega podpisovanja commitov z GPG.
