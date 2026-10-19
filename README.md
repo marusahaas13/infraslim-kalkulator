@@ -49,3 +49,5 @@ Projekt uporabljam za učenje sistema Git in platforme GitHub.
 
 V okviru vaj preizkušam nadzor različic,
 oddaljene repozitorije in sodelovalni razvoj.
+## Navodila za uporabo
+Uporabnik vnese prihodke in stroske ter izracuna financni rezultat.
