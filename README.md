@@ -42,3 +42,10 @@ Maruša Haas
 ## Namen
 Praktično spoznavanje Gita, GitHuba in
 sodelovalnega razvoja programske opreme.
+
+## Razvoj projekta
+
+Projekt uporabljam za učenje sistema Git in platforme GitHub.
+
+V okviru vaj preizkušam nadzor različic,
+oddaljene repozitorije in sodelovalni razvoj.
