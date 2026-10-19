@@ -49,3 +49,5 @@ Projekt uporabljam za učenje sistema Git in platforme GitHub.
 
 V okviru vaj preizkušam nadzor različic,
 oddaljene repozitorije in sodelovalni razvoj.
+## Testiranje aplikacije
+Kalkulator testiramo z razlicnimi prihodki in stroski.
